@@ -9,7 +9,7 @@ h1{
     color: orange;
 
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
     
@@ -43,3 +43,30 @@ section{
 
 }
 
+.padd{
+    padding-left: 5%;
+}
+
+.exp{
+    box-shadow:10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    
+
+}
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#one{
+    border-left: 7px solid blue;
+}
+#two{
+    border-left: 7px solid orange;
+}
+.foot{
+    text-align: center;
+}
